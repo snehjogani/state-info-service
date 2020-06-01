@@ -36,8 +36,8 @@ If you need to update `npm`, just run the following command.
 
 ### Setting up the service
 
-    $ git clone https://github.com/snehjogani/login-service.git
-    $ cd login-service
+    $ git clone https://github.com/snehjogani/state-info-service.git
+    $ cd state-info-service
     $ npm install
 
 ### Running the service
