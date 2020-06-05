@@ -3,13 +3,13 @@
 
 #### URL
 
-Google Cloud Run -  `https://state-info-service-cplbokiulq-de.a.run.app`
+Google Cloud Run  `https://state-info-service-cplbokiulq-de.a.run.app`
 
 #### APIs
 
-`/api/users/get-online-users` - To get a list of logged in users
+`GET` `/api/users/get-online-users` To get a list of logged in users
 
-`/status-check` - Check the status of the service
+`GET` `/status-check` Check the status of the service
 
 #### Developement Requirements
 
