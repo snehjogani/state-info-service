@@ -18,9 +18,11 @@ async function getOnlineUsers(req, res, next) {
   try {
     // query to return users who are logged in other than the current user
     let filter = {
+      attributes: ['user_id'],
       where: {
         $and: [{ id: { $notIn: [accessTokenId] } }, { user_id: { $notIn: [userId] } }]
       },
+      group: ['user_id'],
       include: [{
         model: User, as: 'user'
       }]
