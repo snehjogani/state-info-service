@@ -1,6 +1,16 @@
 ## User State Info Service
     CSCI5410 Serverless Data Processing Assignment 2
 
+#### URL
+
+Google Cloud Run -  `https://state-info-service-cplbokiulq-de.a.run.app`
+
+#### APIs
+
+`/api/users/get-online-users` - To get a list of logged in users
+
+`/status-check` - Check the status of the service
+
 #### Developement Requirements
 
 For development, you will only need Node.js and a node global package, Npm, installed in your environement.
